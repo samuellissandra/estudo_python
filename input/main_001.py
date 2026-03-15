@@ -1,4 +1,4 @@
-banco_lista = ['samuellissandra@gmail.com', 'elissandra914@gmail.com']
+banco_lista = ['samuellissandra@gmail.com', 'elissandra914@gmail.com','braca']
 
 email_digitado = input("Digite seu email: ").strip().lower()
 tem_email_banco_de_dados = email_digitado in [e.strip().lower() for e in banco_lista]
@@ -15,3 +15,4 @@ else:
         print(f"Lista atualizada: {banco_lista}")
     else:
         print("Cadastro cancelado.")
+        
