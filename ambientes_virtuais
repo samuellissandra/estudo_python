@@ -1,0 +1,22 @@
+Ver versão atual do Python
+python3 --version
+
+instalar o pacote correto
+sudo apt install python3.12-venv
+
+criar novamente o ambiente virtual
+python3 -m venv .venv
+
+ativar o ambiente virtual
+Linux/macOS:
+source .venv/bin/activate
+
+Windows (cmd):
+.venv\Scripts\activate
+
+Windows (PowerShell):
+.venv\Scripts\Activate.ps1
+
+Dica rápida:
+# Nome comum do ambiente: venv ou .venv
+# Sempre ative o ambiente antes de rodar scripts
